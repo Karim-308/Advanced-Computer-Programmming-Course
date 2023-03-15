@@ -165,7 +165,7 @@ public void print()
 
 
 
-public class Lab2 {
+public class Lab3Q1 {
    
    
    

@@ -65,21 +65,25 @@ public class MyString
 {
     public static void main(String[] args)  {
    
-        MyStringBuffer buffer = new MyStringBuffer("hello");
-
-        buffer.print(); // Output: hello
+        MyStringBuffer buffer = new MyStringBuffer("Progamming");
+        buffer.print();
     
-        System.out.println(buffer.indexOf('l')); // Output: 2
-    
+        System.out.println(buffer.indexOf('i')); 
+        buffer.print();
+        
         System.out.println(buffer.length()); // Output: 5
+
+        
+        
+        buffer.erase(4, 3);
     
-        buffer.erase(2, 2);
+        buffer.print(); 
     
-        buffer.print(); // Output: he
+        buffer.insert(4, "KARIM");
     
-        buffer.insert(1, "llo");
-    
-        buffer.print(); // Output: hello
+        buffer.print(); 
+        
+        
     }
 }
 
